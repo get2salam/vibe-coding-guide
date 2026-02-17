@@ -84,6 +84,13 @@ Battle-tested prompts for common development tasks:
 - [Testing](./prompts/testing.md)
 - [Documentation](./prompts/documentation.md)
 
+### [🔒 Security](./docs/security.md)
+Keep your AI-generated code secure:
+- OWASP Top 10 mitigations for vibe coding
+- Common vulnerability patterns in AI-generated code
+- Security checklists for auth, APIs, data protection
+- CI/CD security automation workflows
+
 ### [🔧 Workflows](./workflows/)
 End-to-end workflows for real projects:
 - [Greenfield Project](./workflows/greenfield.md)
@@ -98,6 +105,7 @@ Design patterns that leverage Claude's strengths:
 - [Context Loading](./patterns/context-loading.md)
 - [Multi-File Orchestration](./patterns/multi-file.md)
 - [Test-Driven Vibes](./patterns/test-driven.md)
+- [Security Review](./patterns/security-review.md)
 
 ### [🎯 Examples](./examples/)
 Real-world examples with full conversations:
@@ -125,7 +133,7 @@ Real-world examples with full conversations:
 - **Over-specifying**: Let Claude make reasonable decisions
 - **Micro-managing**: Trust the implementation, review the result
 - **Ignoring context**: Keep Claude informed about your project structure
-- **Skipping review**: Always verify critical logic and security
+- **Skipping review**: Always verify critical logic and [security](./docs/security.md)
 
 ---
 
@@ -248,6 +256,7 @@ Vibe coding is evolving fast. Contributions welcome!
 - [Claude Code Documentation](https://docs.anthropic.com/claude-code)
 - [Anthropic's Claude](https://www.anthropic.com/claude)
 - [The Art of Prompt Engineering](./docs/prompt-engineering.md)
+- [Security in Vibe Coding](./docs/security.md)
 - [When NOT to Vibe Code](./docs/limitations.md)
 
 ---
